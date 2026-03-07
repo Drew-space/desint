@@ -73,7 +73,6 @@ const Header = () => {
   //       menuBtn.current?.removeEventListener("click", toggleMenu);
   //     }
 
-
   //   },
   //   { scope: headerRef },
   // );
@@ -112,7 +111,6 @@ const Header = () => {
 
       // nav timeline
       const navTl = gsap.timeline({ paused: true });
-
       navTl
         .to(".menu", {
           duration: 0,
@@ -125,12 +123,35 @@ const Header = () => {
           stagger: 0.1,
           ease: "expo.inOut",
         })
-        .from(".link", {
-          duration: 1,
-          y: "-100",
-          stagger: 0.1,
-          ease: "expo.inOut",
-        });
+        .from(
+          ".link",
+          {
+            duration: 1.5,
+            y: "100%",
+            stagger: 0.2,
+            ease: "expo.inOut",
+          },
+          "-=0.5",
+        )
+        .from(
+          ".social-list",
+          {
+            duration: 1,
+            y: "-100%",
+            opacity: 0,
+            stagger: 0.1,
+            ease: "expo.inOut",
+          },
+          "-=0.5",
+        );
+
+      // .from(".social-list", {
+      //   duration: 1,
+      //   y: "-100",
+      //   opacity: 0,
+      //   stagger: 0.1,
+      //   ease: "expo.inOut",
+      // });
 
       navTl.reverse();
 
@@ -160,7 +181,10 @@ const Header = () => {
           <Image src={"/images/logo.svg"} alt="logo" height={40} width={40} />
         </Link>
         {/* Menu btn */}
-        <button ref={menuBtn} className="relative z-70 bg-transparent border-none cursor-pointer">
+        <button
+          ref={menuBtn}
+          className="relative z-70 bg-transparent border-none cursor-pointer"
+        >
           <svg
             viewBox="0 0 12 10"
             className="hamburger"
@@ -195,7 +219,7 @@ const Header = () => {
                   >
                     <Link
                       href={item.href}
-                      className="text-white text-6xl lg:text-7xl uppercase font-medium leading-none inline-block hover:opacity-75 transition-opacity"
+                      className="link text-white text-6xl lg:text-7xl uppercase font-medium leading-none inline-block hover:opacity-75 transition-opacity"
                     >
                       {item.label}
                     </Link>
