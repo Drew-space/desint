@@ -49,33 +49,62 @@ export const status: StatusItem[] = [
   },
 ];
 
+// export const servicesItems: ServiceItem[] = [
+//   {
+//     id: 1,
+//     img: "/images/project-1.png",
+//     title: "Residential design",
+//   },
+//   {
+//     id: 2,
+//     img: "/images/project-2.png",
+//     title: "Commercial design",
+//   },
+//   {
+//     id: 3,
+//     img: "/images/project-3.png",
+//     title: "Turnkey execution",
+//   },
+//   {
+//     id: 4,
+//     img: "/images/project-4.png",
+//     title: "3D wall & floor design",
+//   },
+//   {
+//     id: 5,
+//     img: "/images/project-5.png",
+//     title: "Space planning",
+//   },
+// ];
+
 export const servicesItems: ServiceItem[] = [
   {
     id: 1,
-    img: "/images/project-1.png",
-    title: "Residential design",
+    img: "https://images.unsplash.com/photo-1509391366360-2e959784a276",
+    title: "Residential Solar Installation",
   },
   {
     id: 2,
-    img: "/images/project-2.png",
-    title: "Commercial design",
+    img: "https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0",
+    title: "Commercial Solar Systems",
   },
   {
     id: 3,
-    img: "/images/project-3.png",
-    title: "Turnkey execution",
+    img: "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d",
+    title: "Solar Panel Maintenance",
   },
   {
     id: 4,
-    img: "/images/project-4.png",
-    title: "3D wall & floor design",
+    img: "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9",
+    title: "Solar Battery Storage",
   },
   {
     id: 5,
-    img: "/images/project-5.png",
-    title: "Space planning",
+    img: "https://images.unsplash.com/photo-1592833159155-c62df1b65634",
+    title: "Solar Energy Consultation",
   },
 ];
+
 export const projects: ProjectItem[] = [
   {
     id: 1,
