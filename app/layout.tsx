@@ -10,9 +10,9 @@ const hostGrotesk = Host_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Desint || Interior Design Agency",
+  title: "Dreamzint || Interior Design Agency",
   description:
-    "Desint is an interior design agency website built with Next.js  and GSAP, showcasing elegant spaces, creative designs, and seamless user experience.",
+    "Dreamzint is an interior design agency website built with Next.js  and GSAP, showcasing elegant spaces, creative designs, and seamless user experience.",
 };
 
 export default function RootLayout({
