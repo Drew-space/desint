@@ -50,7 +50,7 @@ const Services = () => {
   );
 
   return (
-    <section ref={serviceRef} className="section pb-20 lg:pb-28 ">
+    <section ref={serviceRef} className="section pb-20 lg:pb-28 max-sm:text-white">
       <div className="container">
         {/* Title*/}
         <div className="flex items-center justify-between gap-8 flex-wrap">
@@ -89,6 +89,8 @@ const Services = () => {
         </div>
       </div>
     </section>
+
+   
   );
 };
 
