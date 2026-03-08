@@ -71,7 +71,7 @@ const OurProcess = () => {
   );
 
   return (
-    <section ref={processRef} className="section  ">
+    <section ref={processRef} className="section text-blue-500  ">
       <div className="container">
         {/*title*/}
         <div className="flex flex-col gap-3 lg:flex-row">
