@@ -94,11 +94,11 @@ const About = () => {
   return (
     <section ref={aboutRef} className="py-16 bg-neutral-950 text-neutral-50">
       <div className="container space-y-8">
-        <p className="about-text max-w-2xl mx-auto text-xl text-center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea atque
-          cumque impedit at, illo velit porro. Accusamus illum cumque ipsam
-          porro dolorem, quia perferendis dolorum unde itaque veritatis quam
-          non.
+        <p className="about-text max-w-5xl mx-auto text-xl text-center">
+          Beautiful interior spaces are created by blending modern design
+          principles with functionality and timeless elegance. Every project is
+          carefully crafted to bring comfort, personality, and harmony into
+          homes and workspaces. non.
         </p>
 
         <div className="grid gap-8 lg:grid-cols-3 lg:divide-x max-w-max mx-auto">

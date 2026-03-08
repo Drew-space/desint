@@ -22,7 +22,7 @@ const Blog = () => {
       scrollTrigger: {
         trigger: blogRef.current,
         start: "top center",
-        markers: true,
+        // markers: true,
       },
     });
 
@@ -103,10 +103,12 @@ const Blog = () => {
               12 design trick for picking the perfect home and color palatte
             </h3>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab
-              asperiores accusantium iusto vel modi, non magni magnam libero
-              aliquid maiores delectus, ullam molestias itaque? Soluta, laborum
-              temporibus? Vitae, quia praesentium?
+              Choosing the perfect color palette for your home can completely
+              transform the space. From bold accent walls to subtle neutral
+              tones, the right colors reflect your personality, create the
+              desired mood, and enhance the overall design. Learn expert tips to
+              balance shades, textures, and lighting for a harmonious and
+              inviting home environment.
             </p>
             <p className="text"> Design - Dec 20, 2026</p>{" "}
             <div className="mt-auto">

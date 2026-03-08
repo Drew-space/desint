@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import { gsap, ScrollTrigger, SplitText } from "@/lib/gsap";
+import { RiCornerDownRightLine } from "@remixicon/react";
 // import { title } from "process";
 
 const Hero = () => {
@@ -41,22 +42,28 @@ const Hero = () => {
   return (
     <section
       ref={heroRef}
-      className="bg-neutral-950 text-white relative min-h-screen bg-no-repeat bg-cover z-20 bg-center flex flex-col bg-[url(/images/solarimage.avif)] "
+      className="bg-neutral-950 text-white relative min-h-screen bg-no-repeat bg-cover z-20 bg-center flex flex-col bg-[url(/images/hero-img.jpg)] "
     >
       <div className="container flex flex-1 flex-col  justify-between  py-10 hero-wrapper">
-        <h1 className="font-semibold text-[90px] sm:text-9xl lg:text-[200px] my-auto title ">
-          Lumina
+        <h1 className="font-semibold max-sm:text-[85px] text-[90px] sm:text-5xl lg:text-[185px] my-auto title ">
+          Dreamzint
         </h1>
         {/* Wrapper */}
-        <div className="flex flex-col  lg:flex-row lg:items-center lg:justify-between space-y-5">
+        <div className="flex flex-col  lg:flex-row lg:items-center md:justify-between  space-y-5">
           <p className=" text lg:max-w-2xl  ">
             {" "}
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
-            harum omnis eveniet quisquam, possimus voluptatibus unde quidem
-            libero nobis nihil, tempore, architecto impedit provident
-            perferendis quia optio adipisci eum. In.
+            Dreamzint crafts elegant interiors that blend comfort,
+            functionality, and timeless style, turning your vision into a true
+            home.
           </p>
-          <p className="shrink-0 lg:ml-8 text">Scroll down</p>
+          <button className="bg-neutral-50 text-black px-6 py-3 font-semibold flex items-center justify-center gap hover:bg-neutral-300 transition-colors">
+            <span>
+              {" "}
+              <RiCornerDownRightLine />{" "}
+            </span>
+            Contact us
+          </button>
+          {/* <p className="shrink-0 lg:ml-8 text">Scroll down</p> */}
         </div>
       </div>
 

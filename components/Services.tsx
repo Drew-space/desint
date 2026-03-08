@@ -29,7 +29,10 @@ const Services = () => {
       });
 
       //parallax effect
-      const imgs = gsap.utils.toArray(".service-img", serviceRef.current) as HTMLImageElement[];
+      const imgs = gsap.utils.toArray(
+        ".service-img",
+        serviceRef.current,
+      ) as HTMLImageElement[];
 
       imgs.forEach((img) => {
         gsap.to(img, {
@@ -50,13 +53,18 @@ const Services = () => {
   );
 
   return (
-    <section ref={serviceRef} className="section pb-20 lg:pb-28 max-sm:text-white">
+    <section
+      ref={serviceRef}
+      className="section pb-20 lg:pb-28 max-sm:text-white"
+    >
       <div className="container">
         {/* Title*/}
         <div className="flex items-center justify-between gap-8 flex-wrap">
-          <h1 className=" text ">Our Services</h1>
-          <p className="section-title  text max-w-4xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque.
+          <h1 className=" text text-black ">Our Services</h1>
+          <p className="section-title text-black  text max-w-4xl">
+            From concept to completion, we provide full-service interior
+            solutions that combine design, functionality, and style for every
+            space.
           </p>
         </div>
 
@@ -89,8 +97,6 @@ const Services = () => {
         </div>
       </div>
     </section>
-
-   
   );
 };
 

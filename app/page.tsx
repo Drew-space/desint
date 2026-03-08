@@ -1,6 +1,7 @@
 import About from "@/components/About";
 import Blog from "@/components/Blog";
 import Cta from "@/components/Cta";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import OurProcess from "@/components/OurProcess";
 import Services from "@/components/Services";

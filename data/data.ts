@@ -49,66 +49,66 @@ export const status: StatusItem[] = [
   },
 ];
 
-// export const servicesItems: ServiceItem[] = [
-//   {
-//     id: 1,
-//     img: "/images/project-1.png",
-//     title: "Residential design",
-//   },
-//   {
-//     id: 2,
-//     img: "/images/project-2.png",
-//     title: "Commercial design",
-//   },
-//   {
-//     id: 3,
-//     img: "/images/project-3.png",
-//     title: "Turnkey execution",
-//   },
-//   {
-//     id: 4,
-//     img: "/images/project-4.png",
-//     title: "3D wall & floor design",
-//   },
-//   {
-//     id: 5,
-//     img: "/images/project-5.png",
-//     title: "Space planning",
-//   },
-// ];
-
 export const servicesItems: ServiceItem[] = [
   {
     id: 1,
-    // img: "https://images.unsplash.com/photo-1624397640148-949b1732bb0a?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    img: "/images/installingPanel1.avif",
-    title: "Residential Solar Installation",
+    img: "/images/project-1.png",
+    title: "Residential design",
   },
   {
     id: 2,
-    // img: "/images/solar2.webp",
-    img: "https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0",
-    title: "Commercial Solar Systems",
+    img: "/images/project-2.png",
+    title: "Commercial design",
   },
   {
     id: 3,
-    img: "/images/solar3.jpeg",
-    // img: "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d",
-    title: "Solar Panel Maintenance",
+    img: "/images/project-3.png",
+    title: "Turnkey execution",
   },
   {
     id: 4,
-    img: "/images/solar4.webp",
-    // img: "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9",
-    title: "Solar Battery Storage",
+    img: "/images/project-4.png",
+    title: "3D wall & floor design",
   },
   {
     id: 5,
-    // img: "/images/solar5.png",
-    img: "https://images.unsplash.com/photo-1592833159155-c62df1b65634",
-    title: "Solar Energy Consultation",
+    img: "/images/project-5.png",
+    title: "Space planning",
   },
 ];
+
+// export const servicesItems: ServiceItem[] = [
+//   {
+//     id: 1,
+//     // img: "https://images.unsplash.com/photo-1624397640148-949b1732bb0a?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+//     img: "/images/installingPanel1.avif",
+//     title: "Residential Solar Installation",
+//   },
+//   {
+//     id: 2,
+//     // img: "/images/solar2.webp",
+//     img: "https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0",
+//     title: "Commercial Solar Systems",
+//   },
+//   {
+//     id: 3,
+//     img: "/images/solar3.jpeg",
+//     // img: "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d",
+//     title: "Solar Panel Maintenance",
+//   },
+//   {
+//     id: 4,
+//     img: "/images/solar4.webp",
+//     // img: "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9",
+//     title: "Solar Battery Storage",
+//   },
+//   {
+//     id: 5,
+//     // img: "/images/solar5.png",
+//     img: "https://images.unsplash.com/photo-1592833159155-c62df1b65634",
+//     title: "Solar Energy Consultation",
+//   },
+// ];
 
 export const projects: ProjectItem[] = [
   {
@@ -146,29 +146,56 @@ export const projects: ProjectItem[] = [
 export const processItems: ProcessItem[] = [
   {
     id: 1,
-    title: "planning",
+    title: "Planning",
     step: "Step 01",
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati nihil quia corporis deserunt earum.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati nihil quia corporis deserunt earum.",
+    text: "Every project begins with understanding your vision, space requirements, and design goals. Our team carefully plans each detail to ensure a smooth and efficient execution.",
   },
   {
     id: 2,
-    title: "Estimating",
+    title: "Concept & Estimation",
     step: "Step 02",
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati nihil quia corporis deserunt earum.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati nihil quia corporis deserunt earum.",
+    text: "We develop design concepts and provide accurate cost estimates, helping you make informed decisions before construction or installation begins.",
   },
   {
     id: 3,
-    title: "Building",
+    title: "Construction & Design",
     step: "Step 03",
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati nihil quia corporis deserunt earum.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati nihil quia corporis deserunt earum.",
+    text: "Our skilled team brings the design to life using high-quality materials, modern techniques, and careful craftsmanship to ensure lasting results.",
   },
   {
     id: 4,
-    title: "planning",
+    title: "Finalization",
     step: "Step 04",
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati nihil quia corporis deserunt earum.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati nihil quia corporis deserunt earum.",
+    text: "After installation and finishing touches, we review the project to ensure everything meets quality standards and client expectations.",
   },
 ];
+
+// export const processItems: ProcessItem[] = [
+//   {
+//     id: 1,
+//     title: "planning",
+//     step: "Step 01",
+//     text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati nihil quia corporis deserunt earum.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati nihil quia corporis deserunt earum.",
+//   },
+//   {
+//     id: 2,
+//     title: "Estimating",
+//     step: "Step 02",
+//     text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati nihil quia corporis deserunt earum.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati nihil quia corporis deserunt earum.",
+//   },
+//   {
+//     id: 3,
+//     title: "Building",
+//     step: "Step 03",
+//     text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati nihil quia corporis deserunt earum.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati nihil quia corporis deserunt earum.",
+//   },
+//   {
+//     id: 4,
+//     title: "planning",
+//     step: "Step 04",
+//     text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati nihil quia corporis deserunt earum.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati nihil quia corporis deserunt earum.",
+//   },
+// ];
 
 export const blogItems: BlogItem[] = [
   {

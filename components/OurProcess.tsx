@@ -48,7 +48,7 @@ const OurProcess = () => {
             start: "top top",
             scrub: true,
             invalidateOnRefresh: true,
-            markers: true,
+            // markers: true,
           },
           ease: "none",
           scale: scaleVal,
@@ -63,7 +63,7 @@ const OurProcess = () => {
           pinSpacing: false,
           id: "pin",
           invalidateOnRefresh: true,
-          markers: true,
+          // markers: true,
         });
       });
     },
@@ -71,7 +71,7 @@ const OurProcess = () => {
   );
 
   return (
-    <section ref={processRef} className="section text-blue-500  ">
+    <section ref={processRef} className="section  ">
       <div className="container">
         {/*title*/}
         <div className="flex flex-col gap-3 lg:flex-row">
