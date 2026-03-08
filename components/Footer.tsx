@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import SocialIcons from "./SocialIcons";
 import { footerItems } from "@/data/data";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -52,8 +53,14 @@ const Footer = () => {
         </div>
         {/* footer bottom */}
         <p className="text-center py-4">
-          &copy; Copy {new Date().getFullYear()} made by Drew❤️ AllRights
-          reserved{" "}
+          &copy; Copy {new Date().getFullYear()} made by{" "}
+          <Link
+            href={"https://github.com/Drew-space"}
+            className="underline font-semibold"
+          >
+            Drew
+          </Link>
+          ❤️ AllRights reserved{" "}
         </p>
       </div>
     </footer>
