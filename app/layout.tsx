@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${hostGrotesk.className} antialiased`}>
+      <body className={`${hostGrotesk.className}  antialiased`}>
         <main className="m-h-screen">
           <Header />
           {children}

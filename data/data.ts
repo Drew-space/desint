@@ -80,26 +80,31 @@ export const status: StatusItem[] = [
 export const servicesItems: ServiceItem[] = [
   {
     id: 1,
-    img: "https://images.unsplash.com/photo-1509391366360-2e959784a276",
+    // img: "https://images.unsplash.com/photo-1624397640148-949b1732bb0a?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    img: "/images/installingPanel1.avif",
     title: "Residential Solar Installation",
   },
   {
     id: 2,
+    // img: "/images/solar2.webp",
     img: "https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0",
     title: "Commercial Solar Systems",
   },
   {
     id: 3,
-    img: "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d",
+    img: "/images/solar3.jpeg",
+    // img: "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d",
     title: "Solar Panel Maintenance",
   },
   {
     id: 4,
-    img: "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9",
+    img: "/images/solar4.webp",
+    // img: "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9",
     title: "Solar Battery Storage",
   },
   {
     id: 5,
+    // img: "/images/solar5.png",
     img: "https://images.unsplash.com/photo-1592833159155-c62df1b65634",
     title: "Solar Energy Consultation",
   },

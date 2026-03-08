@@ -50,7 +50,7 @@ const Services = () => {
   );
 
   return (
-    <section ref={serviceRef} className="section pb-20 lg:pb-28">
+    <section ref={serviceRef} className="section pb-20 lg:pb-28 ">
       <div className="container">
         {/* Title*/}
         <div className="flex items-center justify-between gap-8 flex-wrap">
