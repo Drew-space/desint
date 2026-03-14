@@ -10,7 +10,6 @@ const Header = () => {
   const headerRef = useRef(null);
   const menuBtn = useRef<HTMLButtonElement | null>(null);
 
-  // useEffect(
   //   () => {
   //     const menuBarT1 = gsap.timeline();
   //     menuBarT1
